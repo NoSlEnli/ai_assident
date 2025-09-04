@@ -1,7 +1,7 @@
 import requests
 
-SANDBOX_ID = "test2voice-1t1buw"
-API_URL = "https://cloud-api.livekit.io/api/sandbox/connection-details"
+SANDBOX_ID = "your livekit sandbox key"
+API_URL = "your Livekit URL"
 
 def get_sandbox_token(room_name: str = None, participant_name: str = None) -> dict:
     payload = {}
@@ -42,3 +42,4 @@ if __name__ == "__main__":
 
     except Exception as e:
         print("❌ Failed to get token:", e)
+
