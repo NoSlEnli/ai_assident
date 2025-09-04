@@ -22,6 +22,8 @@ choose test2
 
 you can now use cammera and microphone to talk to the agent.
 
+the token_generator.py can share the livekit playgroung room to others 
+
 
 
 
@@ -29,4 +31,5 @@ the agent allow user to type words or directly talk to the agent.
 it can search the web, get weather, get current time.
 
 however the agent llm model is gemma-2-7b-it,, which is not suppoert in hong kong region.
+
 you need a vpn swich to united states in order to use it ,also can not say  cantonese, only english is supported.
