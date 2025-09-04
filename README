@@ -1,0 +1,32 @@
+First enter the vertual environment in the terminal:
+.\venv\Scripts\activate
+
+if you do not have the access right go to powershell(as Admin) type:
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+second install dependency:
+pip install -r .\requirements.txt
+
+third before start the program type this:
+python agent.py download-files
+This will download the necessary files for the program to run.
+
+Forth start the program in local:
+python .\agent.py console
+
+Fifth if you want to run the program in the background:
+python .\agent.py dev 
+
+and type livekit playground in the browser to access the agent.
+choose test2
+
+you can now use cammera and microphone to talk to the agent.
+
+
+
+
+the agent allow user to type words or directly talk to the agent.
+it can search the web, get weather, get current time.
+
+however the agent llm model is gemma-2-7b-it,, which is not suppoert in hong kong region.
+you need a vpn swich to united states in order to use it ,also can not say  cantonese, only english is supported.
